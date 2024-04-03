@@ -4,10 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Directives */
 .card{
-  @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+  @apply 
+    rounded 
+    bg-white 
+    border-gray-200 
+    shadow-md 
+    overflow-hidden 
+    relative;
 }
 
 .badge{
-  @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  @apply 
+    absolute 
+    top-0 
+    ml-2 
+    p-2 
+    mt-2 
+    bg-secondary-100 
+    text-secondary-200 
+    text-xs 
+    uppercase 
+    font-bold 
+    rounded-full;
 }
